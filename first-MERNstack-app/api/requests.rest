@@ -1,0 +1,15 @@
+GET http://localhost:8080/todos
+
+###
+POST http://localhost:8080/todos/new
+Content-Type: application/json
+
+{
+    "text": "Add something random"
+}
+
+###
+DELETE http://localhost:8080/todos/delete/60fcb8b64762837e485e307d
+
+###
+PUT http://localhost:8080/todos/complete/60fcb8b64762837e485e307d
