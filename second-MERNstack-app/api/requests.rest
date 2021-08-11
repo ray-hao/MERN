@@ -1,0 +1,24 @@
+GET http://localhost:8080/food
+
+###
+
+POST http://localhost:8080/makeFood
+Content-Type: application/json
+
+{
+    "foodName": "Thrid",
+    "daysFasting": 1
+}
+
+###
+
+PUT http://localhost:8080/updateFood/61103724af6b85087408b51a
+Content-Type: application/json
+
+{
+    "foodName": "UPDATED!"
+}
+
+###
+
+DELETE http://localhost:8080/deleteFood/611053c3cbb9ce7f48076a0b
